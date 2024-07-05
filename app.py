@@ -43,8 +43,6 @@ if not check_password():
 # Packages and API key #
 ########################
 
-import streamlit as st
-
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_community.chat_models import ChatOpenAI
